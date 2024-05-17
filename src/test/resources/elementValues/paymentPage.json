@@ -1,0 +1,30 @@
+[
+  {
+    "key": "creditCardNumberInput",
+    "value": "input#card-number",
+    "type": "css"
+  },
+  {
+    "key": "creditCardExpirationInput",
+    "value": "input#card-expiration",
+    "type": "css"
+  },{
+  "key": "creditCardExpirationInput",
+  "value": "input#card-csc",
+  "type": "css"
+},{
+  "key": "creditCardPayButton",
+  "value": "button#pay",
+  "type": "css"
+},
+  {
+    "key": "selectedFlightsControl",
+    "value": "tbody[data-id='SAW-ADB-20240625--1006PC--1006PC-2180-1;ADB-SAW-20240625--1006PC--1006PC-2209-1']",
+    "type": "css"
+  }
+
+
+
+
+
+]

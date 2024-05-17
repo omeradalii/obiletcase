@@ -1,0 +1,34 @@
+[
+
+  {
+    "key": "departureEcoFlightCategory",
+    "value": "(//div[@class='fly-container'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "departureAdvantageFlightCategory",
+    "value": "(//div[@class='fly-container'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "departureComfortFlightCategory",
+    "value": "(//div[@class='fly-container'])[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "returnEcoCategory",
+    "value": "(//div[@class='fly-container'])[4]",
+    "type": "xpath"
+  },
+  {
+    "key": "returnAdvantageCategory",
+    "value": "(//div[@class='fly-container'])[5]",
+    "type": "xpath"
+  },
+  {
+    "key": "returnComfortCategory",
+    "value": "(//div[@class='fly-container'])[6]",
+    "type": "xpath"
+  }
+
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "key": "signIn",
+    "value": "input[value='Sign In']",
+    "type": "css"
+  },
+  {
+    "key": "signInButton",
+    "value": "//a[@class='login']",
+    "type": "xpath"
+  },
+  {
+    "key": "registerButton",
+    "value": "//button[@class='sign-up login-to-register']",
+    "type": "xpath"
+  },
+  {
+    "key": "eMailInput",
+    "value": "//input[@type='email']",
+    "type": "xpath"
+  },
+  {
+    "key": "passwordInput",
+    "value": "//input[@type='password']",
+    "type": "xpath"
+  },
+  {
+    "key": "logInAfterRegisterButton",
+    "value": "//button[@class='register register-button']",
+    "type": "xpath"
+  },
+  {
+    "key": "myAccountTab",
+    "value": "//a[@class='user-name']",
+    "type": "xpath"
+  },
+  {
+    "key": "myAccountInfo",
+    "value": "//a[@href='/uye/profil']",
+    "type": "xpath"
+  }
+
+
+]

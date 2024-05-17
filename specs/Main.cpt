@@ -1,0 +1,101 @@
+
+#obilet.com web sitesine gidilir
+*"www.obilet.com" adresine git
+
+#obilet.com sitesinde yeni üyelik açılır ve giriş yapılır
+*"signInButton" elementinin görünür olması kontrol edilir
+*"signInButton" elementine tıkla
+*"registerButton" elementinin görünür olması kontrol edilir
+*"registerButton" elementine tıkla
+*"eMailInput" elementinin görünür olması kontrol edilir
+/*"eMailInput" elementine "teeeest221@test.com" değerini yaz
+*Rastgele email üret "eMailInput" buraya yaz
+*"passwordInput" elementinin görünür olması kontrol edilir
+*"passwordInput" elementine "Omeromer12!" değerini yaz
+*"logInAfterRegisterButton" elementinin görünür olması kontrol edilir
+*"logInAfterRegisterButton" elementine tıkla
+*"2" saniye bekle
+*"logInAfterRegisterButton" elementinin görünür olması kontrol edilir
+*"logInAfterRegisterButton" elementine tıkla
+
+#Başarılı bir şekilde giriş yapıldığı doğrulanır
+*"myAccountTab" elementinin görünür olması kontrol edilir
+*"myAccountTab" elementinin tıklanabilir olması kontrol edilir
+*"myAccountTab" elementine tıkla
+*"myAccountInfo" elementinin görünür olması kontrol edilir
+
+#Uçak bileti aramak için uçuş tab'ine tıklanır
+*"flightTab" elementinin görünür olması kontrol edilir
+*"flightTab" elementine tıkla
+
+#Uçuş tab'ine gidildiği kontrol edilir
+*Şu anki url "https://www.obilet.com/ucak-bileti" ile aynı mı
+
+#Gidiş-Dönüş radio buttonuna tıklanır
+*"twoWaysRadioButton" elementinin görünür olması kontrol edilir "10"
+*"twoWaysRadioButton" elementine tıkla
+
+#Kalkış destinasyonu seçilir
+*"originInputForFlight" select element by value "250_0"
+
+
+#Varış destinasyonu seçilir
+*"destinationSelectForFlight" select element by value "251_18"
+
+
+#Kalkış tarihi seçilir
+*"departureDatePicker" elementinin görünür olması kontrol edilir "10"
+*"departureDatePicker" elementine tıkla
+*"dateSelectForDeparture" elementine tıkla
+
+#Varış tarihi seçilir
+*"dateSelectForReturn" elementinin görünür olması kontrol edilir "10"
+*"dateSelectForReturn" elementine tıkla
+
+#Uçuş ara butonuna tıklanır
+*"flightSearchButton" elementinin görünür olması kontrol edilir "10"
+*"flightSearchButton" elementine tıkla
+
+#Gidiş Uçuşu seçilir
+*"departureFlightAfterSearch" elementinin görünür olması kontrol edilir "20"
+*"departureFlightAfterSearch" elementine tıkla
+
+#Gidiş uçuş kategorileri kontrol edilir
+*"departureEcoFlightCategory" elementinin görünür olması kontrol edilir "20"
+*"departureAdvantageFlightCategory" elementinin görünür olması kontrol edilir "20"
+*"departureComfortFlightCategory" elementinin görünür olması kontrol edilir "20"
+
+#Eco uçuş kategorisine tıklanır
+*"departureEcoFlightCategory" elementinin tıklanabilir olması kontrol edilir "10"
+*"departureEcoFlightCategory" elementine tıkla
+
+
+#Dönüş uçuşu seçilir
+*"returnFlightAfterSearch" elementinin görünür olması kontrol edilir "20"
+*"returnFlightAfterSearch" elementine tıkla
+
+#Dönüş uçuş kateogirleri kontrol edilir
+*"returnEcoCategory" elementinin görünür olması kontrol edilir "20"
+*"returnAdvantageCategory" elementinin görünür olması kontrol edilir "20"
+*"returnComfortCategory" elementinin görünür olması kontrol edilir "20"
+
+
+#Dönüş uçuşu için Eco uçuş kategorisine tıklanır
+*"returnEcoCategory" elementinin tıklanabilir olması kontrol edilir "10"
+*"returnEcoCategory" elementine tıkla
+*"10" saniye bekle
+
+
+#Seçilen Uçuşların Ödeme Sayfasındaki Uçuşlarla Aynı Olduğu Kontrol Edilir
+*"selectedFlightsControl" elementinin görünür olması kontrol edilir "10"
+
+
+#Ödeme sayfası elementleri kontrol edilir
+*"creditCardNumberInput" elementinin görünür olması kontrol edilir "10"
+*"creditCardExpirationInput" elementinin görünür olması kontrol edilir "10"
+*"creditCardExpirationInput" elementinin görünür olması kontrol edilir "10"
+*"creditCardPayButton" elementinin görünür olması kontrol edilir "10"
+
+
+
+
