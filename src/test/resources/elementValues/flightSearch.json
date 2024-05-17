@@ -1,0 +1,64 @@
+[
+
+  {
+    "key": "flightTab",
+    "value": "(//a[@href='/ucak-bileti'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "originInputForFlight",
+    "value": "#origin > select",
+    "type": "css"
+  },
+  {
+    "key": "destinationSelectForFlight",
+    "value": "#destination > select",
+    "type": "css"
+  },
+  {
+    "key": "departureDatePicker",
+    "value": "#departure",
+    "type": "css"
+  },
+  {
+    "key": "dateSelectForDeparture",
+    "value": "button[data-date='2024-06-25']",
+    "type": "css"
+  },
+  {
+    "key": "returnDatePicker",
+    "value": "ob-datepicker[id='return']",
+    "type": "css"
+  },
+  {
+    "key": "dateSelectForReturn",
+    "value": "button[data-date='2024-06-25']",
+    "type": "css"
+  },
+  {
+    "key": "flightSearchButton",
+    "value": "button[id='search-button']",
+    "type": "css"
+  },
+  {
+    "key": "discountCloseButton",
+    "value": "wrap-close-button-1454703513202",
+    "type": "id"
+  },
+  {
+    "key": "departureFlightAfterSearch",
+    "value": "li[data-id='SAW-ADB-20240625--1006PC--1006PC-2180-1']",
+    "type": "css"
+  },
+  {
+    "key": "twoWaysRadioButton",
+    "value": "two-ways",
+    "type": "id"
+  },
+
+  {
+    "key": "returnFlightAfterSearch",
+    "value": "li[data-id='ADB-SAW-20240625--1006PC--1006PC-2209-1']",
+    "type": "css"
+  }
+]
